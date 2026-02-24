@@ -26,7 +26,7 @@ namespace WpfTestGit
             int numberOne = int.Parse(TbNumberOne.Text);
             int numberTwo = int.Parse(TbNumberOne.Text);
             int res = numberOne + numberTwo;
-            TblResult.Text = $"Результат = {res}";
+            TblResult.Text = $"Результат сложения = {res}";
         }
     }
 }
