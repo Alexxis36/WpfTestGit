@@ -28,13 +28,5 @@ namespace WpfTestGit
             int res = numberOne + numberTwo;
             TblResult.Text = $"Результат сложения = {res}";
         }
-
-        private void BtMultiply_Click(object sender, RoutedEventArgs e)
-        {
-            int numberOne = int.Parse(TbNumberOne.Text);
-            int numberTwo = int.Parse(TbNumberOne.Text);
-            int res = numberOne * numberTwo;
-            TblResult.Text = $"Результат = {res}";
-        }
     }
 }
